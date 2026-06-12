@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <a href="README.zh-tw.md">繁體中文</a>
+</p>
+
+<p align="center">
   <a href="https://tasteskill.dev" title="Taste Skill - tasteskill.dev">
     <img src="assets/taste-skill-logo.webp" width="80" height="80" alt="Taste Skill" />
   </a>
