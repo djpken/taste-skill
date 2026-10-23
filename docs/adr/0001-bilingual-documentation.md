@@ -6,7 +6,7 @@
 
 以 upstream/main 的英文原文為基準，新增 `zh-TW` 標準書面語對應檔。`SKILL.md`、參考文件、程式碼、命令、URL、plugin manifest 及呼叫用的 `name:` 保持原樣；翻譯不改變 runtime 載入行為。中文 `description:` 與本文供人閱讀。原始 `SKILL.md` 永不因翻譯而編輯。
 
-技能、參考文件與新增翻譯使用 `<stem>.zh-TW.md` 命名。既有 `README.zh-tw.md` 與 `skills/SKILL-ROUTING.zh-tw.md` 保留原路徑並更新全文，不另建只差大小寫的重複檔案，避免 macOS／Windows 檔案名稱衝突。英文 README 僅新增中文入口。
+技能、參考文件與新增翻譯使用 `<stem>.zh-TW.md` 命名。既有 `README.zh-tw.md` 與 `skills/SKILL-ROUTING.zh-tw.md` 保留原路徑並更新全文，不另建只差大小寫的重複檔案，避免 macOS／Windows 檔案名稱衝突。依使用者要求，預設 `README.md` 使用完整中文內容，與 `README.zh-tw.md` 保持一致；英文原文保留在 `README.en.md`，兩者提供語言切換連結。
 
 ## 語體
 

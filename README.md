@@ -1,4 +1,4 @@
-[繁體中文](README.zh-tw.md)
+[English](README.en.md)
 
 <p align="center">
   <picture>
@@ -8,25 +8,25 @@
 </p>
 
 <p align="center">
-  <a href="https://tasteskill.dev" title="Visit tasteskill.dev"><img src="https://img.shields.io/badge/website-tasteskill.dev-24292f?style=flat" alt="Visit tasteskill.dev" /></a>
+  <a href="https://tasteskill.dev" title="造訪 tasteskill.dev"><img src="https://img.shields.io/badge/website-tasteskill.dev-24292f?style=flat" alt="造訪 tasteskill.dev" /></a>
   &nbsp;
-  <a href="https://tastecode.dev" title="Visit tastecode.dev"><img src="https://img.shields.io/badge/new-TasteCode-ff6b00?style=flat" alt="New: TasteCode" /></a>
+  <a href="https://tastecode.dev" title="造訪 tastecode.dev"><img src="https://img.shields.io/badge/new-TasteCode-ff6b00?style=flat" alt="新推出：TasteCode" /></a>
   &nbsp;
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-24292f?style=flat&amp;logo=github&amp;logoColor=white" alt="MIT License" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-24292f?style=flat&amp;logo=github&amp;logoColor=white" alt="MIT 授權" /></a>
   &nbsp;
-  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/changelog-view-24292f?style=flat" alt="Changelog" /></a>
+  <a href="CHANGELOG.zh-TW.md"><img src="https://img.shields.io/badge/changelog-view-24292f?style=flat" alt="更新紀錄" /></a>
 </p>
 
 <p align="center">
   <a href="https://tastecode.dev">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/readme-tastecode-dark.webp" />
-      <img src="assets/readme-tastecode.webp" alt="TasteCode is here. Taste Skill as a desktop app, with a design agent built in. Free and open source. Download at tastecode.dev" width="100%" />
+      <img src="assets/readme-tastecode.webp" alt="TasteCode 已推出。將 Taste Skill 做成內建設計 agent 的桌面 App，免費且開放原始碼。請至 tastecode.dev 下載。" width="100%" />
     </picture>
   </a>
 </p>
 
-<h3 align="center">Sponsors</h3>
+<h3 align="center">贊助者</h3>
 
 <table align="center">
   <tr>
@@ -35,7 +35,7 @@
         <img src="assets/sponsors/interfaces-dev-icon.webp" alt="Interfaces" width="52" height="52" />
       </a>
     </td>
-    <td><sub><a href="https://interfaces.dev/?utm_source=tasteskill&utm_medium=sponsorship"><strong>interfaces.dev</strong></a> · A design engineering magazine by <a href="https://github.com/jakubkrehel"><strong>Jakub Krehel</strong></a></sub></td>
+    <td><sub><a href="https://interfaces.dev/?utm_source=tasteskill&utm_medium=sponsorship"><strong>interfaces.dev</strong></a> · 設計工程雜誌，作者為 <a href="https://github.com/jakubkrehel"><strong>Jakub Krehel</strong></a></sub></td>
   </tr>
   <tr>
     <td align="center" width="104">
@@ -46,7 +46,7 @@
         </picture>
       </a>
     </td>
-    <td><sub><a href="https://reactbits.dev"><strong>React Bits</strong></a> · animated React components for creative interfaces</sub></td>
+    <td><sub><a href="https://reactbits.dev"><strong>React Bits</strong></a> · 為創意介面打造的 React 動畫元件</sub></td>
   </tr>
   <tr>
     <td align="center" width="104"><a href="https://img.ly/"><img src="assets/sponsors/imgly-logo.svg" alt="IMG.LY" width="52" height="52" /></a></td>
@@ -54,50 +54,50 @@
   </tr>
   <tr>
     <td align="center" width="104"><a href="https://www.sent.dm"><img src="assets/sponsors/sentdm.png" alt="Sent.dm" width="52" height="52" /></a></td>
-    <td><sub><a href="https://www.sent.dm"><strong>Sent.dm</strong></a> · messaging APIs for SMS, WhatsApp, and RCS</sub></td>
+    <td><sub><a href="https://www.sent.dm"><strong>Sent.dm</strong></a> · 支援 SMS、WhatsApp、RCS 的訊息 API</sub></td>
   </tr>
 </table>
 
-<p align="center"><sub><a href="https://github.com/sponsors/Leonxlnx">Become a sponsor</a></sub></p>
+<p align="center"><sub><a href="https://github.com/sponsors/Leonxlnx">成為贊助者</a></sub></p>
 
-**Taste Skill** is an Agent Skill that makes coding agents design websites and app screens instead of assembling the average landing page. It gives the agent an art direction, real pictures and a way to check its own work in a real browser.
+**Taste Skill** 是協助 coding agent 設計網站與 App 畫面的 Agent Skill，讓它做出明確設計決策。它提供藝術指導、真實圖片，以及在真實瀏覽器檢查自己作品的方法。
 
-Pages it has built, each from one brief:
+以下頁面各由一份需求說明建立：
 
 <table>
   <tr>
-    <td width="50%"><img src="examples/v2/coffee-storefront.webp" alt="Coffee shop page with a drawn storefront as its hero" /></td>
-    <td width="50%"><img src="examples/v2/night-dates.webp" alt="Techno night page with its dates set into an archive photograph" /></td>
+    <td width="50%"><img src="examples/v2/coffee-storefront.webp" alt="以繪製店面為主視覺的咖啡店頁面" /></td>
+    <td width="50%"><img src="examples/v2/night-dates.webp" alt="將日期嵌入典藏照片的 techno 音樂之夜頁面" /></td>
   </tr>
   <tr>
-    <td width="50%"><img src="examples/v2/coffee-roast.webp" alt="Coffee shop page section showing the roast in four photographs" /></td>
-    <td width="50%"><img src="examples/v2/coffee-questions.webp" alt="Coffee shop page questions as stacked index cards" /></td>
+    <td width="50%"><img src="examples/v2/coffee-roast.webp" alt="用四張照片展示烘焙程度的咖啡店區段" /></td>
+    <td width="50%"><img src="examples/v2/coffee-questions.webp" alt="用堆疊索引卡呈現常見問題的咖啡店頁面" /></td>
   </tr>
 </table>
 
-The photographs are real, found in open archives and credited by the skill ([credits](examples/v2/CREDITS.md)). Watch the [launch film](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.0.0).
+這些是真實照片，由 skill 從開放典藏搜尋並標示出處，見[署名清單](examples/v2/CREDITS.zh-TW.md)。也可觀看[發布影片](https://github.com/Leonxlnx/taste-skill/releases/tag/v2.0.0)。
 
-## Install
+## 安裝
 
 ```bash
 npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-frontend"
 ```
 
-That installs the skill with the [`npx skills`](https://github.com/vercel-labs/agent-skills) CLI.
+此命令用 [`npx skills`](https://github.com/vercel-labs/agent-skills) CLI 安裝技能。
 
-The skill runs its scripts with **Node 22+** and an installed **Chrome, Edge or Chromium**. It installs nothing and needs no API keys. Finding pictures needs network access.
+腳本需要 **Node 22+**，以及已安裝的 **Chrome、Edge 或 Chromium**。它不會安裝其他軟體，也不需要 API key；搜尋圖片需要網路。
 
 <details>
 <summary>Claude Code plugin</summary>
 
-Run these inside Claude Code. The skill is namespaced under `taste-skill:`, so it does not collide with your other skills.
+在 Claude Code 內執行下列命令。技能使用 `taste-skill:` namespace，避免與其他技能衝突。
 
 ```
 /plugin marketplace add Leonxlnx/taste-skill
 /plugin install taste-skill@taste-skill
 ```
 
-`/plugin update` upgrades it later.
+日後用 `/plugin update` 更新。
 
 </details>
 
@@ -109,79 +109,83 @@ codex plugin marketplace add Leonxlnx/taste-skill
 codex plugin add taste-skill@taste-skill
 ```
 
-Start a new Codex session afterwards so the skill is loaded.
+完成後開啟新的 Codex 工作階段以載入技能。
 
 </details>
 
 <details>
-<summary>From a clone, linked instead of copied</summary>
+<summary>從 clone 以符號連結安裝</summary>
 
-`./install.sh` symlinks the skill into Claude Code (`--codex` for Codex, `--all-agents` for both), so a `git pull` updates it in place.
+`./install.sh` 將技能符號連結至 Claude Code；`--codex` 安裝至 Codex，`--all-agents` 兩者皆安裝。之後 `git pull` 即原地更新。
 
 </details>
 
-Already have the skill? Run the install command again; the install name did not change. Looking for one of the older skills? See [Moved skills](#moved-skills).
+已安裝時重新執行安裝命令即可，安裝名稱不變。舊技能位置請見[已搬遷的技能](#已搬遷的技能)。
 
-## How v2 works
+## v2 如何運作
 
-The skill is built from a study of 247 curated sites. A build runs in six steps:
+此技能來自 247 個精選網站的研究，製作流程有六步：
 
-1. Reads the brief and lists what only this client has.
-2. A script deals three of 20 researched directions and the agent picks one.
-3. Finds the idea: one sentence tying the client's own material to that direction.
-4. Builds with real pictures and footage from open collections, credited.
-5. Checks the page in a real browser at three widths and fails it on slop.
-6. Looks at its own screenshots and fixes the top three problems, up to three rounds.
+1. 閱讀需求，列出客戶獨有的素材。
+2. 腳本從 20 個研究方向抽出三個，由 agent 選一個。
+3. 找出構想，以一句話串起客戶素材與該方向。
+4. 使用開放典藏的真實圖片、影片製作，標示出處。
+5. 在真實瀏覽器以三種寬度檢查，低品質項目判為失敗。
+6. 檢視自己截圖，修正前三個問題，最多三輪。
 
-A build takes roughly 30 to 45 minutes and a few hundred thousand tokens. Details are in the [changelog](CHANGELOG.md) and the [study](skills/taste-skill/references/research.md).
+一次製作約需 30 至 45 分鐘與數十萬 tokens。詳見[更新紀錄](CHANGELOG.zh-TW.md)與[研究](skills/taste-skill/references/research.zh-TW.md)。
 
-Dashboards and app screens (v2.1) take their own route: the skill deals one of the app styles distilled from real product screens, builds the shell, the data, the charts and the tables to those numbers, and checks the result with app rules: quiet panels, aligned figures, colour spent on data, a phone layout where the navigation folds away. A product's landing page builds the app it shows the same way, so its screenshots look like a working product.
+儀表板與 App 畫面自 v2.1 起有獨立流程：從真實產品畫面提煉的風格抽選一種，依量測建立外殼、資料、圖表與表格，再以 App 規則檢查，包括低調面板、對齊數字、色彩用於資料、手機導覽收起。產品到達頁展示的 App 片段也依此製作，讓它像可運作的產品。
 
-v2.1 also checks the frame of every page (a clear title on the first screen, equal margins, no section shoved to one side, no random blank stretches) and moves the way strong award sites do, measured on the latest 100 Awwwards Sites of the Day.
+v2.1 也檢查外框：首屏清楚標題、等邊界、區段不擠一側、不隨機空白；動態則依最新 100 個 Awwwards Sites of the Day 量測而來。
 
-## Moved skills
+## 已搬遷的技能
 
-This repo holds one skill, `design-taste-frontend`. The others moved to repos of their own and kept their install names:
+本儲存庫只保留 `design-taste-frontend`。其他技能搬到獨立儲存庫，安裝名稱不變：
 
-| Install name | Where it lives now |
+| 安裝名稱 | 目前位置 |
 | --- | --- |
 | `high-end-visual-design`, `minimalist-ui`, `industrial-brutalist-ui`, `gpt-taste`, `stitch-design-taste`, `design-taste-frontend-v1`, `design-taste-frontend-v2-experimental` | **[Leonxlnx/taste-skill-classics](https://github.com/Leonxlnx/taste-skill-classics)** |
 | `imagegen-frontend-web`, `imagegen-frontend-mobile`, `brandkit`, `image-to-code` | **[Leonxlnx/imagegen-skills](https://github.com/Leonxlnx/imagegen-skills)** |
-| `redesign-existing-projects` | Part of `design-taste-frontend`, which audits an existing page in a real browser before changing anything |
-| `full-output-enforcement` | Removed. For the same problem, see **[Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy)** |
+| `redesign-existing-projects` | 已整合至 `design-taste-frontend`，修改前會用真實瀏覽器稽核既有頁面 |
+| `full-output-enforcement` | 已移除。同類需求請見 **[Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy)** |
 
-Install a moved skill from its new repo under the same name:
+使用原安裝名稱，從新儲存庫安裝：
 
 ```bash
 npx skills add https://github.com/Leonxlnx/taste-skill-classics --skill "high-end-visual-design"
 ```
 
-## Common Questions
+## 常見問題
 
-**What does the skill need?**  
-Node 22 or newer and Chrome, Edge or Chromium. It installs nothing and uses no API keys. It needs the internet only to find pictures.
+**技能需要什麼？**
 
-**Where do the pictures come from, and can I use them?**  
-From open collections such as Wikimedia Commons, Openverse and the Met. Only public domain, CC0, CC BY and CC BY-SA files are offered, and the skill puts the credits on the page. Replace them with your own when you have them.
+Node 22 以上與 Chrome、Edge 或 Chromium。不安裝其他軟體、不使用 API key，只有找圖需要網路。
 
-**Does it work with React, Vue, Svelte, plain HTML?**  
-Yes. The rules are about design, not a framework.
+**圖片哪裡來，可以使用嗎？**
 
-**Is it for dashboards and app screens?**  
-Yes, since v2.1. The skill tells a page from an app screen and builds a dashboard, an admin view or a settings screen with its own run: a style dealt from a study of real product screens, quiet panels, honest data and charts, and its own checks (`inspect.mjs --app`).
+來自 Wikimedia Commons、Openverse、Met 等開放典藏。只提供 public domain、CC0、CC BY、CC BY-SA 素材，技能會在頁面標示署名。取得自有素材後可替換。
 
-## Support the project
+**支援 React、Vue、Svelte、純 HTML 嗎？**
 
-If Taste Skill helps you, consider sponsoring:
+支援。這些規則處理設計，適用各框架。
 
-[Sponsor on GitHub](https://github.com/sponsors/Leonxlnx)
+**適用儀表板與 App 畫面嗎？**
 
-### Open Source Supporters
+自 v2.1 起適用。技能先區分網頁與 App，再用獨立流程製作儀表板、管理、設定：抽選真實產品研究風格、低調面板、誠實資料圖表、獨立檢查 `inspect.mjs --app`。
+
+## 支持專案
+
+若 Taste Skill 對你有幫助，可以考慮贊助：
+
+[在 GitHub 贊助](https://github.com/sponsors/Leonxlnx)
+
+### 開放原始碼支持者
 
 <table align="center">
   <tr>
     <td align="center" width="104"><a href="https://www.kimi.com"><img src="assets/sponsors/kimi-icon.png" alt="Kimi" width="52" height="52" /></a></td>
-    <td><a href="https://www.kimi.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69mt3v89kkekg24gg" /><img alt="Kimi Open Source Friends" src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69fudcmosb3pipls0" height="42" /></picture></a><br /><sub><a href="https://platform.kimi.ai?track_id=track-20f0d64bcaba419bb425a3e8c306f65d&aff=taste-skill"><strong>Get a Kimi API key</strong></a>: taste-skill users get 10% bonus API credits on their first purchase.</sub></td>
+    <td><a href="https://www.kimi.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69mt3v89kkekg24gg" /><img alt="Kimi Open Source Friends" src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-06-05/1d8h69fudcmosb3pipls0" height="42" /></picture></a><br /><sub><a href="https://platform.kimi.ai?track_id=track-20f0d64bcaba419bb425a3e8c306f65d&aff=taste-skill"><strong>取得 Kimi API key</strong></a>: taste-skill 使用者首次購買可獲額外 10% API 額度。</sub></td>
   </tr>
   <tr>
     <td align="center" width="104"><a href="https://vercel.com/open-source-program"><img src="assets/sponsors/vercel-logo.svg" alt="Vercel" width="52" height="52" /></a></td>
@@ -189,7 +193,7 @@ If Taste Skill helps you, consider sponsoring:
   </tr>
 </table>
 
-### Community Sponsors
+### 社群贊助者
 
 <p>
 <a href="https://github.com/dnakov"><img src="https://github.com/dnakov.png" width="40" height="40" style="border-radius:50%" alt="dnakov" title="dnakov" /></a>
@@ -222,15 +226,37 @@ If Taste Skill helps you, consider sponsoring:
   <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=Leonxlnx/taste-skill&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=Leonxlnx/taste-skill" />
-   <img alt="Star History Rank" src="https://api.star-history.com/badge?repo=Leonxlnx/taste-skill" />
+   <img alt="Star 歷史排名" src="https://api.star-history.com/badge?repo=Leonxlnx/taste-skill" />
   </picture>
  </a>
 </p>
 
-<sub>Feedback: open an issue or pull request, DM [@lexnlin](https://x.com/lexnlin) or [@blueemi99](https://x.com/blueemi99), or email [hello@tasteskill.dev](mailto:hello@tasteskill.dev).</sub>
+<sub>回饋：建立 issue 或 pull request，私訊 [@lexnlin](https://x.com/lexnlin) or [@blueemi99](https://x.com/blueemi99),，或寄信至 [hello@tasteskill.dev](mailto:hello@tasteskill.dev).</sub>
 
-<sub>Taste Skill has no official token, coin, or crypto project. Any token using my name, image, or project is unaffiliated and not endorsed by me.</sub>
+<sub>Taste Skill 沒有官方代幣或加密貨幣專案。任何使用作者名稱、圖像或專案名的代幣均無關聯，也未獲作者認可。</sub>
 
-## License
+## 授權
 
-[MIT License](LICENSE) · Copyright (c) 2026 Leonxlnx
+[MIT 授權](LICENSE) · Copyright (c) 2026 Leonxlnx
+
+## 中文文件索引
+
+本翻譯對應 upstream `6010f91`，採 zh-TW 標準書面語。英文 `SKILL.md` 仍是 agent 預設載入檔，中文對應檔供閱讀，不會改變安裝名稱或 runtime。上述安裝指令保留 upstream 來源；要連同此 fork 的中文文件取得，可 clone `https://github.com/djpken/taste-skill.git` 的 `zh-TW` 分支。
+
+- [情境指南](skills/SKILL-ROUTING.zh-tw.md)
+- [技能說明](skills/taste-skill/README.zh-TW.md)
+- [完整技能指令](skills/taste-skill/SKILL.zh-TW.md)
+- [App 畫面](skills/taste-skill/references/app-screens.zh-TW.md)
+- [文案](skills/taste-skill/references/copy.zh-TW.md)
+- [字型](skills/taste-skill/references/type.zh-TW.md)
+- [色彩](skills/taste-skill/references/colour.zh-TW.md)
+- [版面](skills/taste-skill/references/layout.zh-TW.md)
+- [影像](skills/taste-skill/references/imagery.zh-TW.md)
+- [動態](skills/taste-skill/references/motion.zh-TW.md)
+- [捲動場景](skills/taste-skill/references/scenes.zh-TW.md)
+- [評估](skills/taste-skill/references/critique.zh-TW.md)
+- [生成痕跡](skills/taste-skill/references/tells.zh-TW.md)
+- [研究](skills/taste-skill/references/research.zh-TW.md)
+- [雙語文件決策](docs/adr/0001-bilingual-documentation.md)
+
+譯文保留原始命令、程式碼與 inline 路徑；閱讀中文參考文件請使用以上索引。

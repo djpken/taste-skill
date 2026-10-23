@@ -8,9 +8,9 @@ import { parseDocument } from 'yaml';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (path) => readFileSync(join(root, path), 'utf8');
-const companion = (path) => path === 'README.md' ? 'README.zh-tw.md' : path.replace(/\.md$/, '.zh-TW.md');
+const companion = (path) => path === 'README.en.md' ? 'README.zh-tw.md' : path.replace(/\.md$/, '.zh-TW.md');
 const skill = 'skills/taste-skill';
-const sources = ['README.md', 'CHANGELOG.md', 'examples/v2/CREDITS.md',
+const sources = ['README.en.md', 'CHANGELOG.md', 'examples/v2/CREDITS.md',
   `${skill}/README.md`, `${skill}/SKILL.md`,
   ...readdirSync(join(root, skill, 'references')).filter((p) => p.endsWith('.md') && !p.includes('.zh-'))
     .map((p) => `${skill}/references/${p}`)];
@@ -56,5 +56,7 @@ for (const target of ['skills/SKILL-ROUTING.zh-tw.md']) {
     assert.ok(existsSync(resolve(root, dirname(target), dest.split('#')[0])), `Broken link ${target}: ${dest}`);
   }
 }
-assert.ok(read('README.md').includes('[繁體中文](README.zh-tw.md)'));
+assert.equal(read('README.md'), read('README.zh-tw.md'), 'Default README must match the Chinese companion');
+assert.ok(read('README.md').includes('[English](README.en.md)'));
+assert.ok(read('README.en.md').includes('[繁體中文](README.md)'));
 console.log(`ok - ${sources.length} translated documents, ${blocks} unchanged code blocks, names, YAML, sections, register and local links`);
